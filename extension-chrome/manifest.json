@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "FB blocker",
+  "description": "Limita el tiempo de uso en tus redes sociales",
+  "version": "1.0.0",
+  "icons": {"128": "./images/time.png"},
+  "browser_action": {
+    "default_icon": "./images/face_on.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
