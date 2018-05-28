@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Word Lookup",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {"128": "icon_128.png"},
+  "browser_action": {
+    "default_icon": "icon_browser.png",
+    "default_popup": "sketch/index.html",
+    "default_title": "Select the word!"
+  }
+}
